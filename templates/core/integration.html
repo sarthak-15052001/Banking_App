@@ -1,0 +1,203 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Banner Section start -->
+<section class="banner-section business-account integrations">
+    <div class="overlay">
+        <div class="banner-content">
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-10">
+                        <div class="main-content text-center">
+                            <div class="top-area section-text dark-sec">
+                                <h5 class="sub-title">Budgeting and Analytics</h5>
+                                <h1 class="title">Automate Your Workflows With Direct Integrations</h1>
+                                <p>Close the books faster, without errors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-img-bottom pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="img-area">
+                        <img src="{% static 'assets/images/integrations-banner.png' %}" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner Section end -->
+
+<!-- Features start -->
+<section class="earn-cashback features">
+    <div class="overlay pb-120">
+        <div class="container wow fadeInUp">
+            <div class="row pb-120 align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <div class="section-area">
+                        <h5 class="sub-title">Close the books in record time</h5>
+                        <h2 class="title">Sync With Your Favourite Software</h2>
+                        <p>Automate book-keeping and reconciliation, and avoid manual errors with direct integrations to your accounting software.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="sec-image">
+                        <img src="{% static 'assets/images/integrations-features-1.png' %}" alt="image" class="w-100">
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-120 align-items-center justify-content-between">
+                <div class="col-md-6 order-md-0 order-1">
+                    <div class="sec-image">
+                        <img src="{% static 'assets/images/integrations-features-2.png' %}" alt="image" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="section-area">
+                        <h2 class="title">Intelligent categorisation that halves your work</h2>
+                        <p>Save hours each month with intelligent categorisation and automated general ledger mapping to your accounting software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <div class="section-text">
+                        <h2 class="title">Integrated invoicing and reconcilation</h2>
+                        <p>Send invoices directly from your Paylio account. When a payment is received, the invoice will be automatically marked as paid and reconciled.</p>
+                    </div>
+                    <div class="btn-area">
+                        <a href="{% url 'userauths:sign-up' %}" class="cmn-btn">Try it out</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="sec-image ex-mar">
+                        <img src="{% static 'assets/images/integrations-features-3.png' %}" alt="image" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Features end -->
+
+<!-- Platform integration start -->
+<section class="call-action integration">
+    <div class="overlay pt-120 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 text-center">
+                    <div class="section-text">
+                        <h5 class="sub-title">Platform integration</h5>
+                        <h2 class="title">Integrate Plugins to Start Accepting Payments in Minutes</h2>
+                        <p>We make integrating with the most popular e-commerce platforms seamless. Customise, or enjoy out-of-the-box features.</p>
+                    </div>
+                    <div class="btn-area">
+                        <a href="{% url 'userauths:sign-up' %}" class="cmn-btn">Open a Free Account</a>
+                        <a href="" class="cmn-btn active">Talk to an expert</a>
+                    </div>
+                    <ul class="mt-60">
+                        <li><img src="{% static 'assets/images/icon/aws.png' %}" alt="icon"></li>
+                        <li><img src="{% static 'assets/images/icon/shopify.png' %}" alt="icon"></li>
+                        <li><img src="{% static 'assets/images/icon/magento.png' %}" alt="icon"></li>
+                        <li><img src="{% static 'assets/images/icon/xero.png' %}" alt="icon"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Platform integration end -->
+
+<!-- Call Action start -->
+<section class="call-action">
+    <div class="overlay pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 text-center">
+                    <div class="section-text">
+                        <h5 class="sub-title">What are you waiting for?</h5>
+                        <h2 class="title">Make Global Payments Simple Today</h2>
+                        <p>No-fuss company cards for team members, instant virtual cards for security and flexibility — all set up with our easy expense management</p>
+                    </div>
+                    <div class="btn-area">
+                        <a href="{% url 'userauths:sign-up' %}" class="cmn-btn">Sign up in minutes</a>
+                        <a href="" class="cmn-btn active">Talk to an expert</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Call Action end -->
+
+<!-- Footer Area Start -->
+<footer class="footer-section">
+    <div class="container pt-120">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="newsletter">
+                    <div class="section-area mb-30 dark-sec text-center">
+                        <h3 class="title">Subscribe to Our Newsletter</h3>
+                    </div>
+                    <form action="#">
+                        <div class="form-group d-flex align-items-center">
+                            <input type="text" placeholder="Your Email Address">
+                            <button><img src="{% static 'assets/images/icon/arrow-right-2.png' %}" alt="icon"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-area pt-120">
+            <div class="footer-top">
+                <div class="row align-items-center">
+                    <div class="col-sm-6 d-flex justify-content-center justify-content-sm-start">
+                        <div class="menu-item">
+                            <ul class="footer-link d-flex align-items-center">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="help-center.html">Support</a></li>
+                                <li><a href="fees.html">Fees</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-link d-flex justify-content-sm-end justify-content-center align-items-center">
+                            <a href="javascript:void(0)"><img src="{% static 'assets/images/icon/facebook.png' %}" alt="icon"></a>
+                            <a href="javascript:void(0)"><img src="{% static 'assets/images/icon/linkedin.png' %}" alt="icon"></a>
+                            <a href="javascript:void(0)"><img src="{% static 'assets/images/icon/instagram.png' %}" alt="icon"></a>
+                            <a href="javascript:void(0)"><img src="{% static 'assets/images/icon/twitter.png' %}" alt="icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6 col-sm-8 d-flex justify-content-center justify-content-sm-start order-sm-0 order-1">
+                        <div class="copyright text-center text-sm-start">
+                            <p> Copyright © 2023 <a href="{% url 'core:index' %}">Paylio.</a> All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-4">
+                        <div class="menu-item">
+                            <ul class="footer-link d-flex justify-content-sm-end justify-content-center align-items-center">
+                                <li><a href="terms-conditions.html">Terms</a></li>
+                                <li><a href="privacy-policy.html">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Area End -->
+
+{% endblock %}
