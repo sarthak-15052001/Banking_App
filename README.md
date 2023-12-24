@@ -7,4 +7,7 @@
 -> In this users can also add credit card, they can also add money in their card and also do withdraw money from that card and also delete their card.
 
 # Steps to run this project
--> 
+-> First you have to download this file in your system.
+-> Then you have to activate the virtual env
+-> And after that you have to install the requirements.txt file in your project.
+-> Then you have to do migrations and migrate and then create superuser.
